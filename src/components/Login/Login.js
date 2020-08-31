@@ -6,13 +6,13 @@ import { actionTypes } from "../../reducer";
 import { useStateValue } from "../../stateProvider";
 function Login() {
   const [{ user, loginStatus }, dispatch] = useStateValue();
-  console.log("before login", loginStatus);
+  //console.log("before login", loginStatus);
   const signIn = () => {
     auth
       .signInWithPopup(provider)
       .then((result) => {
-        console.log(result);
-        console.log("new user ?", result.additionalUserInfo.isNewUser);
+        //console.log(result);
+        //console.log("new user ?", result.additionalUserInfo.isNewUser);
         dispatch({
           type: actionTypes.SET_USER,
           user: result.user,

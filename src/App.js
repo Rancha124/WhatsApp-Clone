@@ -8,7 +8,7 @@ import {useStateValue} from './stateProvider'
 function App() {
 
   const [{user, loginStatus} ,dispatch] = useStateValue();
-  console.log("Check login Status",loginStatus)
+  //console.log("Check login Status",loginStatus)
   //const[loginStatus ,dispatch] = useStateValue();
     return (
     <div className="app">

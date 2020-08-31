@@ -1,0 +1,30 @@
+.login{
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+display: grid;
+place-items: center;
+height: 50%;
+margin-left: auto;
+margin-right: auto;
+
+}
+.login > h3{
+    color: mediumseagreen;
+}
+.login__text{
+    text-align: center;
+}
+.login__text > button {
+    background-color: lightskyblue;
+    color: black;
+}
+.login__text > button:hover{
+    background-color: mediumseagreen;
+    color: white;
+}
+.card__box{
+    
+    min-height: 30vh;
+    min-width: 30vw;
+}

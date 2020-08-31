@@ -1,0 +1,118 @@
+.chat{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    
+}
+.chat__header{
+    display: flex;
+    border-bottom: 1px solid #99ff8a;
+    padding: 20px;
+    align-items: center;
+    height: 62px;
+}
+.chat__header__info{
+    margin-top: 4px;
+    flex: 1;
+    padding-left: 20px;   
+    min-width: 35vw; 
+}
+.chat__header__info > h3{
+margin: 0px;
+font-size: large;
+}
+.chat__header__info >p{
+    margin: 0px;
+    color: darkgray;
+    font-size: small;
+}
+.chat__header__right{
+display: flex;
+min-width: 10vw;
+}
+.chat__body{
+  flex: 1;
+  background-image: url('../../assets/images/nature1.jpg');
+  padding: 30px;
+  background-position: center;
+  overflow-y: scroll;
+  z-index: 5;
+
+
+}
+.chat__message{
+    position: relative;
+    background-color: whitesmoke;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 25px;
+}
+.chat__name{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    font-size: xx-small;
+    font-weight: 800;
+    color: cornflowerblue;
+}
+.chat__timeStamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chat__receiver{
+    margin-left: auto;
+    background-color:#25D366;
+}
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chat__footer > form {
+    display: flex;
+    flex: 1;
+}
+.chat__footer > form >input {
+    flex: 1;
+    border-radius: 30px;
+    border:none;
+    height: 45px;
+    background-color: lightgray;
+    padding-left: 15px;
+}
+.chat__footer > form >input:focus {
+    outline: none;
+}
+.chat__footer > form > button{
+    display: none;
+}
+.chat__footer > .MuiButtonBase-root {
+    color: gray;
+    padding: 10px;
+}
+.drop-down{
+
+    right: 8px;
+    opacity: 1;
+    top: 45px;
+    text-align: left;
+    padding: 9px 0;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px lightgreen, 
+    -1px 2px 4px lightgreen, 1px 2px 4px lightgreen;
+    width: 150px;
+    border-top: none !important;
+    z-index: 10000;
+    position: absolute;
+    border-top: 1px solid white;
+}
+.drop-down > p:focus{
+    cursor: pointer;    
+    margin-bottom: 0;
+}

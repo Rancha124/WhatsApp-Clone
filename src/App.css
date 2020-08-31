@@ -1,5 +1,14 @@
-.app{
-    align-items: center;
-    text-align: center;
-    
+.app {
+  display: grid;
+  place-items: center;
+  background-color: lightgrey;
+  height: 100vh;
+  
+}
+.app__body {
+  display: flex;
+  height: 95vh;
+  width: 95vw;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 25px 8px #99ff8a;
 }

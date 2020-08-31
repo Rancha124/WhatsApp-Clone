@@ -25,7 +25,7 @@ function Login() {
     <div className="login">
     
       <h3>RunChat Run welcomes you</h3>
-      <h6>Here you can live chat with anyone, go ahead and sign in, create a new room and start chatting alredy</h6>
+      <h6>Here you can live chat with anyone, go ahead and sign in, create a new room and start chatting already</h6>
       <div className="card card__box">
         <div class="card-body login__text">
           <h5 class="card-title">RunChat Run</h5>

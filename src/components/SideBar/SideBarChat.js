@@ -13,7 +13,7 @@ function SideBarChat({ id, name, addNewChat }) {
         .collection("messages")
         .orderBy("timeStamp", "asc")
         .onSnapshot((snapshot) => {
-          console.log("hi", snapshot);
+          //console.log("hi", snapshot);
           setMessages(snapshot.docs.map((doc) => doc.data()));
         });
     }

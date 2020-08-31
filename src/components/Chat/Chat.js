@@ -28,7 +28,7 @@ function Chat() {
   }
   const messageSend = (e) => {
     e.preventDefault();
-    console.log(inputMsg);
+    //console.log(inputMsg);
     db.collection("rooms").doc(roomID).collection("messages").add({
       name: user.displayName,
       message: inputMsg,
